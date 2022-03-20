@@ -1,0 +1,13 @@
+<div class="detailed__wrapper" *ngIf="hero">
+  <h2 class="detailed__title">{{ hero.name | uppercase }} Details</h2>
+  <p><span>id: </span>{{ hero.id }}</p>
+  <div class="detailer__name">
+    <label class="detailed__label" for="'name"> Hero name:</label>
+    <input
+      class="detailed__input"
+      id="name"
+      [(ngModel)]="hero.name"
+      placeholder="name"
+    />
+  </div>
+</div>
