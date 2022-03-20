@@ -5,7 +5,7 @@ import { HEROES } from 'src/app/mocked-heroes';
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.sass'],
+  styleUrls: ['./heroes.component.css'],
 })
 export class HeroesComponent implements OnInit {
   heroes = HEROES;
